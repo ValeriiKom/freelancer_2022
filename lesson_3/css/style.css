@@ -1,0 +1,47 @@
+h3 {
+	color: #034c11;
+}
+
+.important {
+	color: crimson;
+}
+
+.footer {
+	color: grey;
+}
+
+.home-work {
+	color: rgb(238, 105, 105);
+}
+
+#top {
+	color: rgb(83, 39, 8);
+}
+
+p.text {
+	color: brown;
+}
+
+.text.copy {
+	color: rgb(143, 79, 203);
+}
+
+.description p {
+	color: darkgoldenrod;
+}
+
+.words > p {
+	color: rgba(13, 22, 19, 0.5);
+}
+
+.first + p {
+	color: cadetblue;
+}
+
+#history,
+#compound,
+#work,
+#type,
+#benefits {
+	color: rgb(16, 54, 168);
+}
