@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="-container"] {
+	max-width: 1230px;
+	margin: 0 auto
+}
+body {
+	font-family: "Lato";
+	color: #424551;
+	line-height: 1.6;
+}
+.header-container {
+	margin-bottom: 30px;
+}
+header {
+	font: 20px "Lato";
+}
+.page-title {
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 40px;
+}
+.page-text p{
+	margin-bottom: 48px;
+}
+.list-title {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+.list {
+	margin-bottom: 114px;
+}
+.list li::before{
+	content: "";
+	background: url(../img/icons/check.svg) 0 0 no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 16px;
+}
+.page-subtitle {
+	color: #1E212C;
+	line-height: 1.5;
+	margin-bottom: 8px;
+}
+.description {
+	color: #787A80;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 32px;
+}
+.achievement {
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+.achievement li:nth-child(1) {
+	background: url(../img/icons/Star.svg) left center no-repeat;
+	padding-left: 24px;
+}
+.achievement li:nth-child(2) {
+	background: url(../img/icons/Play.svg) left center no-repeat;
+	padding-left: 24px;
+}
+.achievement li:nth-child(3) {
+	background: url(../img/icons/Person.svg) left center no-repeat;
+	padding-left: 24px;
+}
+.page-text-bottom {
+	margin-bottom: 40px;
+}
+.social img{
+	display: inline-block;
+	margin-right: 24px;
+	margin-bottom: 80px;
+}
+.social {
+	margin-bottom: 50px;
+}
+.test {
+	background: #d8d8d8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.test-first {
+	color: white;
+	background: #EF5710;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 200px;
+	border: 1px solid #c6480e;
+	margin-bottom: 30px;
+}
+.test-first:hover {
+	color: #2a2a2a;
+	background: #ef5710ab;
+	border-color: #8a411f;
+}
+.test-second {
+	color: #ffffff;
+	background: #09578B;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 200px;
+	border: 1px solid #074670;
+	margin-bottom: 30px;
+}
+.test-second:active {
+	color: #2a2a2a;
+	background: #09578bac;
+	border-color: #074670a8;
+}
+.test-third {	
+	margin-bottom: 30px;
+}
+.test-third a {
+	color:#2f07e1;
+	text-decoration: underline;
+}
+.test-third a:visited {
+	color:#5943bb;
+}
+.test-fourth {
+	margin-bottom: 30px;
+}
+.test-fourth a {
+	color:#2f07e1;
+}
+.test-fourth a:focus {
+	outline: 2px solid red;
+}
+.test-fifth {
+	color: white;
+	background: #0a750a;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 200px;
+	margin-bottom: 10px;
+}
+.test-sixth {
+	color: white;
+	background: #09578B;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+.test-sixth:target {
+	color: #4a4949;
+	background: #A7E2F6;
+}
+#reference {
+	color:#c2b6b0;
+	background-color: #53255d;
+	text-align: center;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+.test-seventh {
+	background-color: #EBE691;
+	max-width: 200px;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.test-seventh p:first-child {
+	color:#b8216c;
+}
+.test-seventh p:last-child {
+	color:#3ba682
+}
+.test-seventh div:first-of-type {
+	color: #d84c4c;
+}
+.test-seventh div:last-of-type {
+	color:#2f07e1;
+}
+.test-seventh p:nth-child(4){
+	color:#5dab0f;
+}
+.test-seventh p:not(:last-child) {
+	margin-bottom: 10px;
+}
+.test-seventh div:not(:last-child) {
+	margin-bottom: 10px;
+}
+.test-eighth {
+	color: white;
+	background: #EF5710;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+.test-eighth::before {
+	background: #18195d;
+	content: "Before";
+}
+.test-eighth::after {
+	content: "After";
+	background: #225d18;
+}
+
+.game {
+	margin-bottom: 20px;
+}
+.game-container {
+	background: url(../img/field.webp) center top no-repeat;
+	width: 790px;
+	height: 624px;
+}
+.start-block {
+	color: #ffffff;
+	text-align: center;
+	background: url(../img/ball-30x30.png) center bottom no-repeat;
+	background-color: #065d09ba;
+	width: 100px;
+	height: 60px;
+	margin-left: 345px;
+	border: 3px solid #065d09;
+}
+.end-block {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: right;
+	background: url(../img/goal.webp) left bottom no-repeat;
+	background-color: #065d09ba;
+	width: 95px;
+	height: 36px;
+	margin-left: 348px;
+	visibility: hidden;
+}
+.block {
+	background: url(../img/spinningball.gif) 0 0 / contain no-repeat;
+	width: 30px;
+	height: 30px;
+	visibility: hidden;
+}
+.block-1{
+	margin-left: 360px;
+}
+.block-2{
+	margin-left: 335px;
+}
+.block-3{
+	margin-left: 315px;
+}
+.block-4{
+	margin-left: 295px;
+}
+.block-5{
+	margin-left: 280px;
+}
+.block-6{
+	margin-left: 270px;
+}
+.block-7{
+	margin-left: 260px;
+}
+.block-8{
+	margin-left: 255px;
+}
+.block-9{
+	margin-left: 255px;
+}
+.block-10{
+	margin-left: 258px;
+}
+.block-11{
+	margin-left: 260px;
+}
+.block-12{
+	margin-left: 270px;
+}
+.block-13{
+	margin-left: 280px;
+}
+.block-14{
+	margin-left: 290px;
+}
+.block-15{
+	margin-left: 305px;
+}
+.block-16{
+	margin-left: 320px;
+}
+.block-17{
+	margin-left: 335px;
+}
+.block-18{
+	margin-left: 350px;
+}
+
+.block:hover,
+.end-block:hover,
+.block:hover + .block,
+.block:hover + .end-block,
+.start-block:hover + .block
+{
+	visibility: visible;
+}
+
+footer {
+	color: #EBE691;
+	text-align: center;
+	background: linear-gradient(135deg, #413659b3 0%,rgba(65,54,89,0.7) 19%,rgba(65,54,89,0.7) 32%,rgba(65,54,89,0.7) 48%,rgba(65,54,89,0.7) 63%,rgba(65,54,89,0.7) 100%), url(../img/ukraine.jpg) 0 0 / contain repeat-x;
+	font: 20px/3 "Lato";
+
+}
