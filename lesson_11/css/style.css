@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&display=swap');
+
+.wrapper {
+	/*overflow: hidden;*/
+	position: relative;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	max-width: 800px;
+	margin: 0 auto
+}
+
+.header {
+}
+.main {
+}
+
+.block-first {
+	color: #8284ec;
+	font: 500 32px / 1.5 "Source Code Pro";
+	text-align: center;
+	background-color: #e7c248;
+	border: 2px solid #be950f;
+	padding: 20px;
+}
+.block-second {
+	color:#b3eeda;
+	font: 500 32px / 1.5 "Source Code Pro";
+	text-align: center;
+	background-color: #729766;
+	border: 2px solid #5a7b4e;
+	padding: 20px;
+}
+.block-third {
+	color: #f19371;
+	font: 500 32px / 1.5 "Source Code Pro";
+	text-align: center;
+	background-color: #7272e8;
+	border: 2px solid #555589;
+	padding: 20px;
+}
+
+.blocks-relative {
+	background-color: #bcbcbc;
+	padding: 50px;
+}
+.block-third--relative {
+	position: relative;
+	bottom: 50px;
+	left: 150px;
+	opacity: 0.7;
+	z-index: 10;
+}
+
+.blocks-absolute {
+	background-color: #d6cdcd;
+	padding: 50px;
+	position: relative;
+}
+.block-second--absolute {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+.blocks-fixed {
+	background-color: #c9e4c8;
+	padding: 50px;
+}
+.block-first--fixed {
+	position: fixed;
+	top: 10px;
+	left: 1200px;
+
+}
+.blocks-sticky {
+	background-color: #ccc7e2;
+	padding: 50px;
+	height: 2500px;
+	position: relative;
+	z-index: 20;
+}
+.block-first--sticky,
+.block-second--sticky,
+.block-third--sticky {
+	position: sticky;
+	top: 10px;
+}
+
+.text {
+	color: #404040;
+	font: 400 20px / 1.3 "Source Code Pro";
+}
+
+.car {
+	background-color: #585c36;
+	position: relative;
+	z-index: 30;
+}
+
+.car__button {
+	color: #fff;
+	background-color: #841717;
+	text-align: center;
+	font: 400 20px / 1.3 "Source Code Pro";
+	width: 250px;
+	height: 50px;
+	padding-top: 10px;
+	border: 2px solid #6e1313;
+	border-radius: 5px;
+	position: absolute;
+	top: -450px;
+	left: 550px;
+}
+.car__button:hover {
+	color: rgb(223, 219, 219);
+	background-color: #9a2d2d;
+	border: 2px solid #791919;
+}
+.car__road {
+	background: url(../img/road.jpg) 0 0 no-repeat;
+	margin: 0 auto;
+	background-size: cover;
+	width: 1230px;
+	height: 960px;
+	position: relative;
+}
+.car__cabrio {
+	position: absolute;
+	top: 500px;
+	left: 660px;
+}
+.car__pizza {
+	position: absolute;
+	top: 115px;
+	left: 52px;
+}
+.car__woman {
+	position: absolute;
+	top: 100px;
+	left: 810px;
+}
+.car__box {
+	border: 1px solid #381f39;
+	width: 30px;
+	height: 30px;
+	background-color: #502952;
+	box-shadow: 2px 2px 1px 1px #381f39;
+	position: absolute;
+	top: 400px;
+	left: 350px;
+}
+.car__sitting-woman {
+	position: absolute;
+	top: -60px;
+	left: -17px;
+}
+
+.footer {
+}
