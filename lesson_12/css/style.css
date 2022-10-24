@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&display=swap');
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+}
+.header {
+}
+.main {
+}
+.scribbles {
+}
+.scribbles__container {
+	height: 700px;
+	margin: 0 auto;
+	background: url(../img/road-night_1728x1080.jpg) center no-repeat;
+	position: relative;
+}
+.car {
+	width: 800px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 10;
+}
+.car:hover {
+	transform: translate(150px,20px);
+}
+.car__driver {
+	width: 120px;
+	position: absolute;
+	top: 45px;
+	left:360px;
+}
+.car__number{
+	text-align: center;
+	text-transform: uppercase;
+	font: 900 28px / 1 "Source Code Pro";
+	background: #cdcbcb;
+	border: 3px solid #000;
+	border-radius: 3px;
+	width: 155px;
+	height: 40px;
+	padding: 3px;
+	position: absolute;
+	top: 290px;
+	left: 520px;
+	transform: skewY(-3deg);
+}
+.sponge-bob {
+	width: 150px;
+	height: 150px;
+	background: url(../img/sponge-bob.png) 0 0 no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 200px;
+	left: 1100px;
+	z-index: 20;
+	perspective: 100px;
+	perspective-origin: 15% 10%;
+	
+}
+.sponge-bob:hover {
+	transform: scale(1.3);
+}
+.sponge-bob__disk {
+	width: 150px;
+	height: 150px;
+	background: url(../img/disk.png) 0 0 no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: -120px;
+	left: 150px;	
+}
+.sponge-bob:hover .sponge-bob__disk {
+	transform: rotateX(-30deg);
+	transform-origin: left top;
+}
+.sheet {
+	width: 250px;
+	height: 250px;
+	background: url(../img/yevgen-cartoon.webp) center right no-repeat;
+	background-size: 50%;
+	position: absolute;
+	bottom: 50px;
+	left: 800px;
+	perspective: 500px;
+	transform-style: preserve-3d;
+}
+.sheet__img {
+	transform: rotate3d(0,1,0,45deg);
+	backface-visibility: hidden;
+}
+.sheet__img img{
+	max-width: 100%;
+}
+.sheet-2 {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	perspective: 5000px;
+	transform-style: preserve-3d;
+}
+.sheet-2__img {
+	transform: rotate3d(0,1,0,-45deg);
+	backface-visibility: hidden;
+}
+.sheet-2__img img{
+	max-width: 100%;
+}
+.sheet:hover {
+	transform: rotateY(180deg);
+}
+.footer {
+}
