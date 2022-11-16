@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common-components.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="information">
+				<div class="information__container">
+					<form action=" https://jsonplaceholder.typicode.com/posts" method="POST" class="form"
+						enctype="multipart/form-data">
+						<div class="form__line">
+							<label class="form__label" for="name">Введіть ім'я:</label>
+							<input id="name" type="text" name="name" placeholder="Валерій" class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="email-1">Введіть e-mail:</label>
+							<input id="email-1" type="email" name="email" placeholder="valerii@gmail.com" class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="phone-1">Введіть номер телефону:</label>
+							<input id="phone-1" type="tel" name="phone" placeholder="+380123456789" autocomplete="off"
+								class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="pass-1">Введіть пароль:</label>
+							<input id="pass-1" type="password" name="pass" placeholder="123456789" autocomplete="off"
+								class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="num-1">Введіть будь-яке число:</label>
+							<input id="num-1" type="number" name="num" placeholder="123" autocomplete="off"
+								class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="color-1">Виберіть колір:</label>
+							<input id="color-1" type="color" name="color" value="#EF5710" class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="search-1">Введіть пошуковий запит:</label>
+							<input id="search-1" type="search" name="search" placeholder="Скільки коштує ..."
+								class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="date-1">Введіть дату народження:</label>
+							<input id="date-1" type="date" name="date" class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="range-start">Виберіть початкове значення:</label>
+							<input id="range-start" type="range" name="range-start" class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="range-end">Виберіть кінцеве значення:</label>
+							<input id="range-end" type="range" name="range-end" class="form__input">
+						</div>
+						<div class="form__line">
+							<input id="check-1" type="checkbox" name="check-1" class="form__input form__input--check">
+							<label class="form__label" for="check-1">Вам вже є 18 років?</label>
+						</div>
+						<div class="form__line">
+							<div class="form__title">Які курси по Front End кращі?</div>
+							<div class="form__radio">
+								<input id="courses-1" type="radio" name="courses" value="EPAM"
+									class="form__input form__input--radio">
+								<label class="form__label" for="courses-1">EPAM</label>
+							</div>
+							<div class="form__radio">
+								<input id="courses-2" type="radio" name="courses" value="GoIt"
+									class="form__input form__input--radio">
+								<label class="form__label" for="courses-2">GoIt</label>
+							</div>
+							<div class="form__radio">
+								<input id="courses-3" type="radio" name="courses" value="THE BEST" checked
+									class="form__input form__input--radio">
+								<label class="form__label" for="courses-3">Фрілансер по життю!</label>
+							</div>
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="files-1">Завантажте свої фото:</label>
+							<input id="files-1" type="file" name="files" multiple accept="image/jpeg, image/png"
+								class="form__input">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="message-1">Напишіть повідомлення:</label>
+							<textarea class="form__area" name="message" id="message-1" cols="30" rows="10"></textarea>
+						</div>
+						<div class="form__line">
+							<label class="form__label select-label" for="select">Виберіть технології:</label>
+							<select name="select" id="select" multiple class="form__select">
+								<option value="HTML">HTML</option>
+								<option value="CSS">CSS</option>
+								<option value="avaScript">JavaScript</option>
+								<option value="React">React</option>
+								<option value="Angular">Angular</option>
+								<option value="Vue">Vue</option>
+							</select>
+						</div>
+						<div class="form__line">
+							<input type="hidden" name="some-hidden-data" value="987654321" class="form__input">
+						</div>
+						<div class="form__line">
+							<button class="form__button" type="button">Просто натисни</button>
+						</div>
+						<div class="form__line">
+							<button class="form__button" type="reset">Оновити форму</button>
+						</div>
+						<div class="form__line">
+							<button class="form__button" type="submit">Відправити форму</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="contacts-form">
+				<div class="contacts-form__container">
+					<div class="contacts-form__body">
+						<div class="contacts-form__image">
+							<img src="img/illustration.svg" alt="Girl">
+						</div>
+						<div class="contacts-form__content">
+							<div class="contacts-form__heading section-heading">
+								<span class="section-heading__description">Any questions?</span>
+								<h2 class="section-heading__title">Drop us a line</h2>
+							</div>
+							<form action=" https://jsonplaceholder.typicode.com/posts" method="POST"
+								class="contacts-form__form form-contacts">
+								<div class="form-contacts__group">
+									<div class="form-contacts__line">
+										<label class="form-contacts__label" for="first-name">First Name*</label>
+										<input id="first-name" type="text" name="first-name" placeholder="Your first name"
+											required class="form-contacts__input">
+									</div>
+									<div class="form-contacts__line">
+										<label class="form-contacts__label" for="last-name">Last Name*</label>
+										<input id="last-name" type="text" name="last-name" placeholder="Your last name" required
+											class="form-contacts__input">
+									</div>
+								</div>
+								<div class="form-contacts__group">
+									<div class="form-contacts__line">
+										<label class="form-contacts__label" for="email-2">Email*</label>
+										<input id="email-2" type="email" name="email-2" placeholder="Your working email" required
+											class="form-contacts__input">
+									</div>
+									<div class="form-contacts__line">
+										<label class="form-contacts__label" for="phone-2">Phone</label>
+										<input id="phone-2" type="tel" name="phone-2" placeholder="Your phone number"
+											autocomplete="off" class="form-contacts__input">
+									</div>
+								</div>
+								<div class="form-contacts__line">
+									<label class="form-contacts__label" for="message-2">Message*</label>
+									<textarea class="form-contacts__area" name="message-2" id="message-2"
+										placeholder="Your message" required></textarea>
+								</div>
+								<!-- Radio buttons -->
+								<div class="form-contacts__line form-contacts__line--radio">
+									<div class="form-contacts__label">How many hours a day you can spend for studying?</div>
+									<div class="form-contacts__radio radio">
+										<input id="hours-1" type="radio" name="hours" value="1 - 2" class="radio__input">
+										<label class="radio__label" for="hours-1">1 - 2</label>
+									</div>
+									<div class="form-contacts__radio radio">
+										<input id="hours-2" type="radio" name="hours" value="2 - 3" class="radio__input">
+										<label class="radio__label" for="hours-2">2 - 3</label>
+									</div>
+									<div class="form-contacts__radio radio">
+										<input id="hours-3" type="radio" name="hours" value="3 - 4" class="radio__input">
+										<label class="radio__label" for="hours-3">3 - 4</label>
+									</div>
+								</div>
+								<div class="form-contacts__group">
+									<div class="form-contacts__line checkbox">
+										<input id="check-2" type="checkbox" name="check-2" required class="checkbox__input">
+										<label class="checkbox__label" for="check-2">I agree to receive communications from
+											Createx Online School</label>
+									</div>
+									<div class="form-contacts__line">
+										<button class="form-contacts__button button-solid" type="submit">Send message</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
