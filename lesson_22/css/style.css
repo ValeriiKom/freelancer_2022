@@ -1,0 +1,48 @@
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.header {
+}
+.page {
+	padding-top: 30px;
+}
+.page__container {
+}
+.page__title {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.page__content {
+}
+.page__subtitle {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.page__list {
+}
+.page__list:not(:last-child) {
+	margin-bottom: 30px;
+}
+.page__item {
+	padding-left: 10px;
+}
+.page__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer {
+}
