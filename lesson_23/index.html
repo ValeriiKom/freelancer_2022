@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 23</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="page__container">
+				<h1 class="page__title">Домашнє завдання до уроку #23</h1>
+				<section class="page__content">
+					<h2 class="page__subtitle">Відео "Оператори JAVASCRIPT"</h2>
+					<ul class="page__list">
+						<li class="page__item">Варіант №1: не вірно, оператор "-" перетворює рядок в число -22, а при
+							додаванні рядка "35" і числа -22 знову отримуємо рядок "35-22");</li>
+						<li class="page__item">Варіант №2: вірно;</li>
+						<li class="page__item">Варіант №3: не вірно - інкремент не може застосовуватись до числа;</li>
+						<li class="page__item">Варіант №4: не вірно - постфіксний запис, спочатку виведеться в консоль 0;</li>
+						<li class="page__item">Варіант №5: не вірно - повертається 11, спочатку виконуються оператори &&,
+							результат першого 11, другого !'', потім виконується оператор ||, так як перше значення істина, то
+							він ігнорує значення другого виразу і повертає значення першого;</li>
+						<li class="page__item">Варіант №6: так як змінна не null і не undefined, то виведеться значення
+							змінної 0.</li>
+					</ul>
+					<h2 class="page__subtitle">Відео "IF ELSE в JAVASCRIPT"</h2>
+					<ul class="page__list">
+						<li class="page__item">Варіант №1: хиба, так як використовується строге порівняння, а типи даних
+							різні;</li>
+						<li class="page__item">Варіант №2: істина, так як при нестрогому порівнянні дані приводяться до чисел,
+							а в цьому випадку числа рівні;</li>
+						<li class="page__item">Варіант №3: істина, спочатку виконуються порівняння, так як у них вищий
+							пріоритет, ніж у &&, з обох сторін - true, після цього оператор && повертає останнє true;</li>
+						<li class="page__item">Варіант №5: істина, 0 - це false, переходимо до else if, там не порожній рядок
+							з пробілом - це true, а значить виводиться в консоль 'Істина'.</li>
+					</ul>
+					<h2 class="page__subtitle">Відео "Цикли FOR і WHILE в JAVASCRIPT"</h2>
+					<ul class="page__list">
+						<li class="page__item">Задача №1:
+							<img src="img/exercise-1.jpg" alt="exercise-1">
+						</li>
+						<li class="page__item">Задача №2: не вірно, останній результат 1, так як при 0(false) цикл вже не буде
+							виконуватись;</li>
+						<li class="page__item">Задача №3:
+							<img src="img/exercise-3.jpg" alt="exercise-3">
+						</li>
+						<li class="page__item">Задача №4:
+							<img src="img/exercise-4.jpg" alt="exercise-4">
+						</li>
+					</ul>
+					<h2 class="page__subtitle">Відео "Числа в JAVASCRIPT"</h2>
+					<ul class="page__list">
+						<li class="page__item">
+							<img src="img/exercise-5.jpg" alt="exercises">
+						</li>
+					</ul>
+					<h2 class="page__subtitle">Відео "Рядки в JAVASCRIPT"</h2>
+					<ul class="page__list">
+						<li class="page__item">Задача №1: не вірно, томущо використані не правильні лапки, для шаблонного
+							рядка потрібно використовувати зворотні лапки (` `);</li>
+						<li class="page__item">Задача №2:
+							<img src="img/exercise-6.jpg" alt="exercises">
+						</li>
+						<li class="page__item">Задача №3: не вірно, отримаємо 123456, так як оператор додавання не змінює тип
+							даних рядок на число;</li>
+						<li class="page__item">Задача №4:
+							<img src="img/exercise-7.jpg" alt="exercises">
+						</li>
+						<li class="page__item">Задача №5:
+							<img src="img/exercise-8.jpg" alt="exercises">
+						</li>
+						<li class="page__item">Задача №6: false, тому що пошук почнеться з символа з індексом 4, а це вже
+							буква "а", тому співпадіння не буде знайдено.</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+		<footer class=" footer">
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
