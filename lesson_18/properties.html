@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 18</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#display" class="menu__link">display</a>
+					</li>
+					<li class="menu__item">
+						<a href="#grid-auto-flow" class="menu__link">grid-auto-flow</a>
+					</li>
+					<li class="menu__item">
+						<a href="#justify-items" class="menu__link">justify-items</a>
+					</li>
+					<li class="menu__item">
+						<a href="#align-items" class="menu__link">align-items</a>
+					</li>
+					<li class="menu__item">
+						<a href="#justify-content" class="menu__link">justify-content</a>
+					</li>
+					<li class="menu__item">
+						<a href="#align-content" class="menu__link">align-content</a>
+					</li>
+					<li class="menu__item">
+						<a href="#grid-areas" class="menu__link">grid-areas</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="page">
+			<div class="training-block">
+				<div class="training-block__container">
+					<!-- display: grid | inline-grid -->
+					<div id="display" class="blocks">
+						<h2 class="subtitle">
+							display: grid | inline-grid;
+						</h2>
+						<div class="block-1 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+						</div>
+						<div class="block-2 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+						</div>
+					</div>
+					<!-- grid-auto-flow: row | column | dense -->
+					<div id="auto-flow" class="blocks">
+						<h2 class="subtitle">
+							grid-auto-flow: row | column | dense;
+						</h2>
+						<div class="block-3 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+						</div>
+						<div class="block-4 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+						</div>
+						<div class="block-5 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+						</div>
+					</div>
+					<!-- justify-items -->
+					<div id="justify-items" class="blocks">
+						<h2 class="subtitle">
+							justify-items: stretch | start | end | center;
+						</h2>
+						<div class="block-6 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-7 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-8 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-9 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+					</div>
+					<!-- align-items -->
+					<div id="align-items" class="blocks">
+						<h2 class="subtitle">
+							align-items: stretch | start | end | center;
+						</h2>
+						<div class="block-10 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-11 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-12 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-13 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+					</div>
+					<!-- justify-content -->
+					<div id="justify-content" class="blocks">
+						<h2 class="subtitle">
+							justify-content: start | end | center | stretch | space-between | space-around | space-evenly;
+						</h2>
+						<div class="block-14 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-15 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-16 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-17 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-18 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-19 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-20 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+					</div>
+					<!-- align-content -->
+					<div id="align-content" class="blocks">
+						<h2 class="subtitle">
+							align-content: start | end | center | stretch | space-between | space-around | space-evenly;
+						</h2>
+						<div class="block-21 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-22 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-23 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-24 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-25 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-26 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+						<div class="block-27 block">
+							<div class="block__item">
+								1
+							</div>
+							<div class="block__item">
+								2
+							</div>
+							<div class="block__item">
+								3
+							</div>
+							<div class="block__item">
+								4
+							</div>
+							<div class="block__item">
+								5
+							</div>
+							<div class="block__item">
+								6
+							</div>
+						</div>
+					</div>
+					<!-- grid-areas -->
+					<div id="grid-areas" class="blocks">
+						<h2 class="subtitle">
+							grid-areas;
+						</h2>
+						<div class="block-28 block">
+							<div class="block__item block__item-header">Хедер</div>
+							<div class="block__item block__item-sidebar">Сайдбар</div>
+							<div class="block__item block__item-content">Контент</div>
+							<div class="block__item block__item-footer">Футер</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				2022
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
